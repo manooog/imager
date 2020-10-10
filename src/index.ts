@@ -1,0 +1,1 @@
+export { default as githubUploader } from './uploader/github'

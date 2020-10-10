@@ -1,0 +1,36 @@
+{
+  "name": "@rxh/imager",
+  "version": "0.0.1",
+  "description": "使用免费服务创建的图床，包括Github等",
+  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "unpkg": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c --watch",
+    "build": "rollup -c",
+    "prepublishOnly": "yarn build"
+  },
+  "keywords": [
+    "Github",
+    "Image",
+    "file",
+    "图床"
+  ],
+  "author": "ruanbo",
+  "license": "MIT",
+  "files": [
+    "package.json",
+    "dist"
+  ],
+  "dependencies": {
+    "@octokit/core": "^3.1.2"
+  },
+  "devDependencies": {
+    "rollup": "^2.29.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.27.3",
+    "typescript": "^4.0.3"
+  }
+}
