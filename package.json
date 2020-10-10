@@ -1,6 +1,6 @@
 {
   "name": "@rxh/imager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "使用免费服务创建的图床，包括Github等",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
